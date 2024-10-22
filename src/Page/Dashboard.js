@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import Card from "../Components/Card";
 import Navbar from "../Components/Navbar";
-import CustomSpinner from "../Components/CustomSpinner";
+import Spinner from "../Components/Spinner";
 
 // Import Images
 
 import profile from "../Assets/profile.png";
 import profile1 from "../Assets/profile1.png";
-import profile4 from "../Assets/profile4.jpeg";
-import profile5 from "../Assets/profile5.jpeg";
+import profile4 from "../Assets/profile4.png";
+import profile5 from "../Assets/profile5.png";
 import profile6 from "../Assets/profile6.png";
 import profile7 from "../Assets/profile7.png";
 import { FETCH_URL } from "../FETCH_URL";
@@ -171,7 +171,7 @@ const Dashboard = () => {
           />
           <div className="Dashboard-Container">
             {isLoading ? (
-              <CustomSpinner />
+              <Spinner />
             ) : (
               <>
                 {status.Keys.map((item, index) => (
@@ -241,7 +241,7 @@ const Dashboard = () => {
           />
           <div className="Dashboard-Container">
             {isLoading ? (
-              <CustomSpinner />
+              <Spinner />
             ) : (
               <>
                 {availableUser &&
@@ -333,7 +333,7 @@ const Dashboard = () => {
           />
           <div className="Dashboard-Container">
             {isLoading ? (
-              <CustomSpinner />
+              <Spinner />
             ) : (
               <>
                 {priority.Keys.sort((a, b) => a - b).map((item, index) => (

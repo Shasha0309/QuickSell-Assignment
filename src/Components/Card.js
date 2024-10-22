@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import profile from "../Assets/profile.png";
 import profile1 from "../Assets/profile1.png";
-import profile4 from "../Assets/profile4.jpeg";
-import profile5 from "../Assets/profile5.jpeg";
+import profile4 from "../Assets/profile4.png";
+import profile5 from "../Assets/profile5.png";
 import profile6 from "../Assets/profile6.png";
 import profile7 from "../Assets/profile7.png";
 
